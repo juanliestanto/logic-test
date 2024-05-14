@@ -23,7 +23,7 @@ namespace MaxValue
                 throw new ArgumentException("Array cannot be null or empty");
             }
 
-            int max = 0;
+            int max = numbers[0];
 
             foreach (int value in numbers)
             {
